@@ -1,0 +1,59 @@
+*,*::after,*::before {
+    margin: 0;
+    padding: 0;
+}
+
+.buttons_wrapper {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.buttons_wrapper > div {
+    text-align: center;
+    margin: 1px;
+    padding: 30px 15px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 30px;
+}
+
+.buttons_wrapper > div:hover {
+    background-color: aliceblue;
+}
+
+.buttons_wrapper > div:active {
+    background-color: aliceblue;
+}
+
+#numbers {
+ display: inline-flex;
+ flex-wrap: wrap;
+ margin: 5px;
+}
+
+#average {
+    position: fixed;
+    bottom: 450px;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.number {
+    padding: 20px;
+    margin: 3px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.number:hover {
+    background-color: aliceblue;
+}
+
+.number:active {
+    background-color: aliceblue;
+}
